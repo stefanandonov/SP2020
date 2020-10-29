@@ -10,14 +10,14 @@
 
 #include <stdio.h>
 int main () {
-    float price, interest;
+    double price, interest;
     int installments;
 
-    scanf("%f %f", &price, &interest);
+    scanf("%lf %lf", &price, &interest);
     scanf("%d", &installments);
 
-    float amount = price * (1 + interest/100.0);
-    printf("The installment amount is %.5f", amount/installments);
+    double amount = price * (1 + interest/100.0);
+    printf("The installment amount is %.5lf", amount/installments);
     return 0;
 }
 

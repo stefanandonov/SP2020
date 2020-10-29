@@ -14,7 +14,7 @@ int main () {
     int resultLowerCase = c>='a' && c<='z';
     int resultDigit = c>='0' && c<='9';
     int resultNotDigit = c<'0' || c>'9';
-    printf("%d %d", resultLowerCase, resultDigit);
+    printf("%d %d %d", resultLowerCase, resultDigit, resultNotDigit);
 
     return 0;
 }
