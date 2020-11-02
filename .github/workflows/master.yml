@@ -1,0 +1,55 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+  pull_request: {}
+
+jobs:
+  macedonian_branch_build:
+    name: Macedonian branch
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        ref: master
+
+    - name: build
+      run: |
+        cd ${{ github.workspace }}
+        mkdir build
+        cd build
+        xargs -n1 -r0a <(find ${{ github.workspace }} -type f -iname '*.c' -print0) sh -c '
+        R=0
+        for file do
+          echo "Compiling $file"
+          gcc "$file" -o a.out -lm
+          R=$(( R + $? ))
+        done
+        exit $R' sh
+
+  english_branch_build:
+    name: English branch
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        ref: sp_en_branch
+
+    - name: build
+      run: |
+        cd ${{ github.workspace }}
+        mkdir build
+        cd build
+        xargs -n1 -r0a <(find ${{ github.workspace }} -type f -iname '*.c' -print0) sh -c '
+        R=0
+        for file do
+          echo "Compiling $file"
+          gcc "$file" -o a.out -lm
+          R=$(( R + $? ))
+        done
+        exit $R' sh
