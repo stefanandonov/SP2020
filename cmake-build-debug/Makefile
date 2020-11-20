@@ -131,6 +131,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named task6
+
+# Build rule for target.
+task6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task6
+.PHONY : task6
+
+# fast build rule for target.
+task6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/build
+.PHONY : task6/fast
+
+#=============================================================================
+# Target rules for targets named CMakeLists
+
+# Build rule for target.
+CMakeLists: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeLists
+.PHONY : CMakeLists
+
+# fast build rule for target.
+CMakeLists/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/build
+.PHONY : CMakeLists/fast
+
+#=============================================================================
 # Target rules for targets named task5
 
 # Build rule for target.
@@ -170,6 +196,19 @@ task0/fast:
 .PHONY : task0/fast
 
 #=============================================================================
+# Target rules for targets named task1
+
+# Build rule for target.
+task1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task1
+.PHONY : task1
+
+# fast build rule for target.
+task1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/build
+.PHONY : task1/fast
+
+#=============================================================================
 # Target rules for targets named task4
 
 # Build rule for target.
@@ -181,6 +220,19 @@ task4: cmake_check_build_system
 task4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task4.dir/build.make CMakeFiles/task4.dir/build
 .PHONY : task4/fast
+
+#=============================================================================
+# Target rules for targets named task2
+
+# Build rule for target.
+task2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task2
+.PHONY : task2
+
+# fast build rule for target.
+task2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/build
+.PHONY : task2/fast
 
 #=============================================================================
 # Target rules for targets named task7
@@ -207,45 +259,6 @@ task3: cmake_check_build_system
 task3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/build
 .PHONY : task3/fast
-
-#=============================================================================
-# Target rules for targets named task6
-
-# Build rule for target.
-task6: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task6
-.PHONY : task6
-
-# fast build rule for target.
-task6/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/build
-.PHONY : task6/fast
-
-#=============================================================================
-# Target rules for targets named task2
-
-# Build rule for target.
-task2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task2
-.PHONY : task2
-
-# fast build rule for target.
-task2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/build
-.PHONY : task2/fast
-
-#=============================================================================
-# Target rules for targets named task1
-
-# Build rule for target.
-task1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task1
-.PHONY : task1
-
-# fast build rule for target.
-task1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/build
-.PHONY : task1/fast
 
 exercise2/task0.o: exercise2/task0.c.o
 
@@ -498,6 +511,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... CMakeLists"
 	@echo "... task0"
 	@echo "... task1"
 	@echo "... task2"

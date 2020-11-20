@@ -73,15 +73,16 @@ CMAKE_BINARY_DIR = /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/task6.dir/all
+all: CMakeFiles/CMakeLists.dir/all
 all: CMakeFiles/task5.dir/all
 all: CMakeFiles/task8.dir/all
 all: CMakeFiles/task0.dir/all
+all: CMakeFiles/task1.dir/all
 all: CMakeFiles/task4.dir/all
+all: CMakeFiles/task2.dir/all
 all: CMakeFiles/task7.dir/all
 all: CMakeFiles/task3.dir/all
-all: CMakeFiles/task6.dir/all
-all: CMakeFiles/task2.dir/all
-all: CMakeFiles/task1.dir/all
 
 .PHONY : all
 
@@ -91,17 +92,72 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/task6.dir/clean
+clean: CMakeFiles/CMakeLists.dir/clean
 clean: CMakeFiles/task5.dir/clean
 clean: CMakeFiles/task8.dir/clean
 clean: CMakeFiles/task0.dir/clean
+clean: CMakeFiles/task1.dir/clean
 clean: CMakeFiles/task4.dir/clean
+clean: CMakeFiles/task2.dir/clean
 clean: CMakeFiles/task7.dir/clean
 clean: CMakeFiles/task3.dir/clean
-clean: CMakeFiles/task6.dir/clean
-clean: CMakeFiles/task2.dir/clean
-clean: CMakeFiles/task1.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/task6.dir
+
+# All Build rule for target.
+CMakeFiles/task6.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target task6"
+.PHONY : CMakeFiles/task6.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/task6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/task6.dir/rule
+
+# Convenience name for target.
+task6: CMakeFiles/task6.dir/rule
+
+.PHONY : task6
+
+# clean rule for target.
+CMakeFiles/task6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/clean
+.PHONY : CMakeFiles/task6.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CMakeLists.dir
+
+# All Build rule for target.
+CMakeFiles/CMakeLists.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles --progress-num= "Built target CMakeLists"
+.PHONY : CMakeFiles/CMakeLists.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CMakeLists.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CMakeLists.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CMakeLists.dir/rule
+
+# Convenience name for target.
+CMakeLists: CMakeFiles/CMakeLists.dir/rule
+
+.PHONY : CMakeLists
+
+# clean rule for target.
+CMakeFiles/CMakeLists.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/clean
+.PHONY : CMakeFiles/CMakeLists.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/task5.dir
@@ -185,6 +241,33 @@ CMakeFiles/task0.dir/clean:
 .PHONY : CMakeFiles/task0.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/task1.dir
+
+# All Build rule for target.
+CMakeFiles/task1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target task1"
+.PHONY : CMakeFiles/task1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/task1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/task1.dir/rule
+
+# Convenience name for target.
+task1: CMakeFiles/task1.dir/rule
+
+.PHONY : task1
+
+# clean rule for target.
+CMakeFiles/task1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/clean
+.PHONY : CMakeFiles/task1.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/task4.dir
 
 # All Build rule for target.
@@ -210,6 +293,33 @@ task4: CMakeFiles/task4.dir/rule
 CMakeFiles/task4.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task4.dir/build.make CMakeFiles/task4.dir/clean
 .PHONY : CMakeFiles/task4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/task2.dir
+
+# All Build rule for target.
+CMakeFiles/task2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target task2"
+.PHONY : CMakeFiles/task2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/task2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/task2.dir/rule
+
+# Convenience name for target.
+task2: CMakeFiles/task2.dir/rule
+
+.PHONY : task2
+
+# clean rule for target.
+CMakeFiles/task2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/clean
+.PHONY : CMakeFiles/task2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/task7.dir
@@ -264,87 +374,6 @@ task3: CMakeFiles/task3.dir/rule
 CMakeFiles/task3.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3.dir/build.make CMakeFiles/task3.dir/clean
 .PHONY : CMakeFiles/task3.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/task6.dir
-
-# All Build rule for target.
-CMakeFiles/task6.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target task6"
-.PHONY : CMakeFiles/task6.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/task6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task6.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/task6.dir/rule
-
-# Convenience name for target.
-task6: CMakeFiles/task6.dir/rule
-
-.PHONY : task6
-
-# clean rule for target.
-CMakeFiles/task6.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/clean
-.PHONY : CMakeFiles/task6.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/task2.dir
-
-# All Build rule for target.
-CMakeFiles/task2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target task2"
-.PHONY : CMakeFiles/task2.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/task2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/task2.dir/rule
-
-# Convenience name for target.
-task2: CMakeFiles/task2.dir/rule
-
-.PHONY : task2
-
-# clean rule for target.
-CMakeFiles/task2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2.dir/build.make CMakeFiles/task2.dir/clean
-.PHONY : CMakeFiles/task2.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/task1.dir
-
-# All Build rule for target.
-CMakeFiles/task1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target task1"
-.PHONY : CMakeFiles/task1.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/task1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/task1.dir/rule
-
-# Convenience name for target.
-task1: CMakeFiles/task1.dir/rule
-
-.PHONY : task1
-
-# clean rule for target.
-CMakeFiles/task1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/clean
-.PHONY : CMakeFiles/task1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

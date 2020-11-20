@@ -13,3 +13,5 @@ add_executable(task5 exercise3/task5.c)
 add_executable(task6 exercise3/task6.c)
 add_executable(task7 exercise3/task7.c)
 add_executable(task8 exercise3/task8.c)
+
+add_executable(CMakeLists CMakeLists.txt)

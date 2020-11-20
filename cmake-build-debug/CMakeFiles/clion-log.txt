@@ -1,4 +1,7 @@
 "/Users/stefanandonov/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/stefanandonov/CLionProjects/SP/SP2020
 -- Configuring done
+CMake Error: Cannot determine link language for target "CMakeLists".
+CMake Error: CMake can not determine linker language for target: CMakeLists
 -- Generating done
--- Build files have been written to: /Users/stefanandonov/CLionProjects/SP/SP2020/cmake-build-debug
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+Unable to determine product file path for target CMakeLists. Running and debugging will be unavailable.
