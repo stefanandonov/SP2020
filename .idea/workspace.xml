@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="SP2020" targetName="task0" />
+      <config projectName="SP2020" targetName="task1" />
+      <config projectName="SP2020" targetName="task2" />
+      <config projectName="SP2020" targetName="task3" />
+      <config projectName="SP2020" targetName="task4" />
+      <config projectName="SP2020" targetName="task5" />
+      <config projectName="SP2020" targetName="task6" />
+      <config projectName="SP2020" targetName="task7" />
+      <config projectName="SP2020" targetName="task8" />
+      <config projectName="SP2020" targetName="CMakeLists" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="934dc32b-c8a9-4959-aea8-d8cef76083bf" name="Default Changelist" comment="add exercise 3">
+      <change beforePath="$PROJECT_DIR$/.idea/SP2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SP2020.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SP2020.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SP2020.cbp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1j4Ah7as8Wz332Q583mzFuxxice" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aud1" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aud1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.task6">
+    <configuration name="CMakeLists" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SP2020" TARGET_NAME="CMakeLists" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SP2020" RUN_TARGET_NAME="CMakeLists">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task0" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SP2020" TARGET_NAME="task0" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SP2020" RUN_TARGET_NAME="task0">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SP2020" TARGET_NAME="task1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SP2020" RUN_TARGET_NAME="task1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SP2020" TARGET_NAME="task2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SP2020" RUN_TARGET_NAME="task2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SP2020" TARGET_NAME="task3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SP2020" RUN_TARGET_NAME="task3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SP2020" TARGET_NAME="task4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SP2020" RUN_TARGET_NAME="task4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task5" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SP2020" TARGET_NAME="task5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SP2020" RUN_TARGET_NAME="task5">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task6" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SP2020" TARGET_NAME="task6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SP2020" RUN_TARGET_NAME="task6">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task7" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SP2020" TARGET_NAME="task7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SP2020" RUN_TARGET_NAME="task7">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task8" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SP2020" TARGET_NAME="task8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SP2020" RUN_TARGET_NAME="task8">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.CMakeLists" />
+      <item itemvalue="CMake Application.task0" />
+      <item itemvalue="CMake Application.task1" />
+      <item itemvalue="CMake Application.task2" />
+      <item itemvalue="CMake Application.task3" />
+      <item itemvalue="CMake Application.task4" />
+      <item itemvalue="CMake Application.task5" />
+      <item itemvalue="CMake Application.task6" />
+      <item itemvalue="CMake Application.task7" />
+      <item itemvalue="CMake Application.task8" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="934dc32b-c8a9-4959-aea8-d8cef76083bf" name="Default Changelist" comment="" />
+      <created>1603053106752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603053106752</updated>
+      <workItem from="1603053107905" duration="447000" />
+      <workItem from="1603346069542" duration="4326000" />
+      <workItem from="1603969183689" duration="5276000" />
+      <workItem from="1604573801251" duration="163000" />
+    </task>
+    <task id="LOCAL-00001" summary="add exercise 3">
+      <created>1603975690800</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603975690800</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add exercise 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add exercise 3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2698" y="398" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603346106679">
+      <screen x="1792" y="23" width="2560" height="1417" />
+    </state>
+    <state x="634" y="300" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1046@0.23.1792.1046" timestamp="1603053401451" />
+    <state x="2698" y="398" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1792.23.2560.1417/0.23.1792.1046@1792.23.2560.1417" timestamp="1603346106679" />
+    <state width="2518" height="392" key="GridCell.Tab.0.bottom" timestamp="1603988366699">
+      <screen x="1792" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="392" key="GridCell.Tab.0.bottom/1792.23.2560.1366/0.23.1792.1097@1792.23.2560.1366" timestamp="1603976599868" />
+    <state width="2518" height="392" key="GridCell.Tab.0.bottom/1792.23.2560.1417/0.23.1792.1046@1792.23.2560.1417" timestamp="1603988366699" />
+    <state width="2518" height="392" key="GridCell.Tab.0.center" timestamp="1603988366698">
+      <screen x="1792" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="392" key="GridCell.Tab.0.center/1792.23.2560.1366/0.23.1792.1097@1792.23.2560.1366" timestamp="1603976599868" />
+    <state width="2518" height="392" key="GridCell.Tab.0.center/1792.23.2560.1417/0.23.1792.1046@1792.23.2560.1417" timestamp="1603988366698" />
+    <state width="2518" height="392" key="GridCell.Tab.0.left" timestamp="1603988366689">
+      <screen x="1792" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="392" key="GridCell.Tab.0.left/1792.23.2560.1366/0.23.1792.1097@1792.23.2560.1366" timestamp="1603976599867" />
+    <state width="2518" height="392" key="GridCell.Tab.0.left/1792.23.2560.1417/0.23.1792.1046@1792.23.2560.1417" timestamp="1603988366689" />
+    <state width="2518" height="392" key="GridCell.Tab.0.right" timestamp="1603988366698">
+      <screen x="1792" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="392" key="GridCell.Tab.0.right/1792.23.2560.1366/0.23.1792.1097@1792.23.2560.1366" timestamp="1603976599868" />
+    <state width="2518" height="392" key="GridCell.Tab.0.right/1792.23.2560.1417/0.23.1792.1046@1792.23.2560.1417" timestamp="1603988366698" />
+    <state x="2672" y="433" key="Vcs.Push.Dialog.v2" timestamp="1603975693206">
+      <screen x="1792" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2672" y="433" key="Vcs.Push.Dialog.v2/1792.23.2560.1417/0.23.1792.1046@1792.23.2560.1417" timestamp="1603975693206" />
+    <state x="2834" y="426" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604573882695">
+      <screen x="1792" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2834" y="426" key="git4idea.branch.GitSmartOperationDialog/1792.23.2560.1417/0.23.1792.1046@1792.23.2560.1417" timestamp="1604573882695" />
+  </component>
+</project>
